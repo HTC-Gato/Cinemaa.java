@@ -117,7 +117,7 @@ public class Programa01 {
                 }
                 else{
                     fileiraA[cadeira] = true;
-                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira);
+                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira+1);
                 }
             }
             else if(fila.charAt(0)=='B'){
@@ -126,7 +126,7 @@ public class Programa01 {
                 }
                 else{
                     fileiraB[cadeira] = true;
-                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira);
+                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira+1);
                 }
             }
             else if(fila.charAt(0)=='C'){
@@ -135,7 +135,7 @@ public class Programa01 {
                 }
                 else{
                     fileiraC[cadeira] = true;
-                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira);
+                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira+1);
                 }
             }
             else  if(fila.charAt(0)=='D'){
@@ -144,7 +144,7 @@ public class Programa01 {
                 }
                 else{
                     fileiraD[cadeira] = true;
-                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira);
+                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira+1);
                 }
             }
             else  if(fila.charAt(0)=='E'){
@@ -153,7 +153,7 @@ public class Programa01 {
                 }
                 else{
                     fileiraE[cadeira] = true;
-                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira);
+                    System.out.printf("Assento %c%d reservado%n",fila.charAt(0),cadeira+1);
                 }
             }
             else {
